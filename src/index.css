@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.vertical-timeline-element {
+    transition: transform 0.3s ease; /* Add transition for smooth animation */
+  }
+  
+  .vertical-timeline-element:hover {
+    transform: translateY(-5px); /* Example animation, adjust as needed */
+  }
+  .vertical-timeline-element .timeline-hidden {
+    display: none; /* Initially hide the <p> tag */
+  }
+  
+  .vertical-timeline-element:hover .timeline-hidden {
+    display: block; /* Show the <p> tag when hovering */
+    animation: fadeIn 0.10 ease-in-out; /* Add fade-in animation */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
