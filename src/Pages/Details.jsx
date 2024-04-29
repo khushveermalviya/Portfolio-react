@@ -14,54 +14,54 @@ function Details() {
   <VerticalTimelineElement
     className="vertical-timeline-element--work "
     contentStyle={{ background: 'rgb(73, 69, 64)', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '19px solid  rgb(33, 150, 243)' }}
-    date="2011 - present"
+    contentArrowStyle={{ borderRight: '1px solid  rgb(33, 150, 243)' }}
+    date="2022 - present"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
    
   >
-    <h3 className="vertical-timeline-element-title">Creative Director</h3>
-    <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+    <h3 className="vertical-timeline-element-title">Manipal University Jaipur</h3>
+    <h4 className="vertical-timeline-element-subtitle">BCA</h4>
     <p className="timeline-hidden">
-      Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+      1st year= 7.5 CGPA
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work "
     contentStyle={{ background: 'rgb(73, 69, 64)', color: '#fff' }}
-    date="2010 - 2011"
+    date="Future"
     iconStyle={{ background: 'rgb(96, 85, 97)', color: '#fff' }}
     
   >
-    <h3 className="vertical-timeline-element-title">Art Director</h3>
-    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+    <h3 className="vertical-timeline-element-title">Progress</h3>
+    <h4 className="vertical-timeline-element-subtitle">Wait</h4>
     <p className="timeline-hidden">
-      Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+      Future is unpredictable
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work "
     contentStyle={{ background: 'rgb(73, 69, 64)', color: '#fff' }}
-    date="2008 - 2010"
+    date="Future"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 
   >
-    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-    <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+    <h3 className="vertical-timeline-element-title">Progress</h3>
+    <h4 className="vertical-timeline-element-subtitle">Wait</h4>
     <p className="timeline-hidden">
-      User Experience, Visual Design
+    Future is unpredictable
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work "
     contentStyle={{ background: 'rgb(73, 69, 64)', color: '#fff' }}
-    date="2006 - 2008"
+    date="Future"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   
   >
-    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+    <h3 className="vertical-timeline-element-title">Progress</h3>
+    <h4 className="vertical-timeline-element-subtitle">Wait</h4>
     <p className="timeline-hidden">
-      User Experience, Visual Design
+    Future is unpredictable
     </p>
   </VerticalTimelineElement>
   {/* <VerticalTimelineElement
