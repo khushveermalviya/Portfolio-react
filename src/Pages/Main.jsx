@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { TbBrandCpp } from "react-icons/tb";
 import { FaJava } from "react-icons/fa";
 import { DiJavascript } from "react-icons/di";

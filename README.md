@@ -1,12 +1,30 @@
-<<<<<<< HEAD
-# React + Vite
+## My Portfolio ##
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My portfolio is built using React, a popular JavaScript library for building user interfaces. I have also incorporated Material Icons, a collection of beautifully designed icons, to enhance the visual appeal of my portfolio.
 
-Currently, two official plugins are available:
+To download and run this code, follow these steps:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# Portfolio-react
->>>>>>> 1c8a22d7671a7e8b5c98ae1ebd69f5e92aeec895
+1. Clone the repository:
+    ```
+    git clone https://github.com/your-username/your-repo.git
+    ```
+
+2. Navigate to the project directory:
+    ```
+    cd my-project
+    ```
+
+3. Install the dependencies:
+    ```
+    npm install
+    ```
+
+4. Start the development server:
+    ```
+    npm start
+    ```
+
+5. Open your browser and visit `http://localhost:3000` to see your portfolio in action.
+
+Feel free to explore the code and customize it according to your needs. Happy coding!
+##Khushveer malviya
