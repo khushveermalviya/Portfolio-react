@@ -6,7 +6,7 @@ import Nav2 from "./Nav2";
 function Body() {
   useEffect(() => {
     if (window.VANTA) {
-      window.VANTA.WAVES({
+      window.VANTA.BIRDS({
         el: ".bg-custom-body",
         mouseControls: true,
         touchControls: true,
@@ -15,10 +15,13 @@ function Body() {
         minWidth: 200.00,
         scale: 1.00,
         scaleMobile: 1.00,
-        color: 0xc151f,
-        waveHeight: 0.50,
-        waveSpeed: 0.60,
-        zoom: 0.65
+        backgroundColor: 0xde8d60,
+        color1: 0xd9d6d6,
+        color2: 0x2bb873,
+        birdSize: 1.30,
+        wingSpan: 10.00,
+        separation: 81.00,
+        cohesion: 79.00
       });
     }
   }, []);

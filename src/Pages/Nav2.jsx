@@ -1,10 +1,10 @@
 import React from 'react'
-
+import '../index.css';
 function Nav2() {
   return (
-    <div className='w-full flex h-full justify-center align-middle text-2xl'>
-        <h1 className="mt-5 transition duration-500 transform px-6 py-2 m-4 inline   hover:text-white">
-            Khushveermalviya
+    <div className='w-full flex h-full  align-middle mt-20 '>
+        <h1 id='khush'>
+           Welcome to the world technoloy
         </h1>
 
     </div>
