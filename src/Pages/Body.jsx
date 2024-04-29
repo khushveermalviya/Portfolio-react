@@ -1,6 +1,7 @@
 import { VANTA } from "vanta";
 import { useEffect } from "react";
 import Nav from "./Nav";
+import Nav2 from "./Nav2";
 
 function Body() {
   useEffect(() => {
@@ -23,8 +24,9 @@ function Body() {
   }, []);
 
   return (
-<div className="bg-custom-body h-screen">
+<div className="bg-custom-body h-screen rounded-lg">
   <Nav/>
+<Nav2/>
 </div>
   );
 }

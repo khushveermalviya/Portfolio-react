@@ -15,7 +15,7 @@
   
   .vertical-timeline-element:hover .timeline-hidden {
     display: block; /* Show the <p> tag when hovering */
-    animation: fadeIn 0.10 ease-in-out; /* Add fade-in animation */
+    animation: fadeIn 0.5s ease-in-out;/* Add fade-in animation */
   }
   
   @keyframes fadeIn {
@@ -25,5 +25,13 @@
     to {
       opacity: 1;
     }
+  }
+  .bg-image {
+    background-image: url('./13312322_v748-toon-131.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .hover\:scale-105:hover {
+    transform: scale(1.05);
   }
   
