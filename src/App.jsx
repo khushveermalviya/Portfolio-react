@@ -11,7 +11,7 @@ function App() {
     <>
      
     <Body />
-    <Details/>
+    {/* <Details/> */}
     <Footer />
     </>
   )
