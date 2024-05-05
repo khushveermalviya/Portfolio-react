@@ -32,7 +32,7 @@ function Details() {
     iconStyle={{ background: 'rgb(96, 85, 97)', color: '#fff' }}
     
   >
-    <h3 className="vertical-timeline-element-title">Progress</h3>
+    <h3 className="vertical-timeline-element-title">Bharatintern</h3>
     <h4 className="vertical-timeline-element-subtitle">Wait</h4>
     <p className="timeline-hidden">
       Future is unpredictable
