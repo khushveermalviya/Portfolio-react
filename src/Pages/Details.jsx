@@ -35,7 +35,7 @@ function Details() {
     <h3 className="vertical-timeline-element-title">Progress</h3>
     <h4 className="vertical-timeline-element-subtitle">Wait</h4>
     <p className="timeline-hidden">
-      Future is unpredictable
+      Future is unpredictable it will happen soon
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
