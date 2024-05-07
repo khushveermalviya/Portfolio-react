@@ -35,14 +35,14 @@ function Details() {
     <h3 className="vertical-timeline-element-title">Progress</h3>
     <h4 className="vertical-timeline-element-subtitle">Wait</h4>
     <p className="timeline-hidden">
-      Future is unpredictable
+      Future so Generic
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work "
     contentStyle={{ background: 'rgb(73, 69, 64)', color: '#fff' }}
     date="Future"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(33, 120, 243)', color: '#fff' }}
 
   >
     <h3 className="vertical-timeline-element-title">Progress</h3>
