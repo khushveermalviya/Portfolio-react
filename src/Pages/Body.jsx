@@ -1,37 +1,30 @@
-import { VANTA } from "vanta";
-import { useEffect } from "react";
-import Nav from "./Nav";
-import Nav2 from "./Nav2";
+  import { Canvas } from '@react-three/fiber'
+  import { Suspense } from 'react'
+  import { OrbitControls } from '@react-three/drei'
+import Nav from './Nav'
+import FloatingParticles from './FloatingParticles'
 
 function Body() {
-  // useEffect(() => {
-  //   if (window.VANTA) {
-  //     window.VANTA.BIRDS({
-  //       el: ".bg-custom-body",
-  //       mouseControls: true,
-  //       touchControls: true,
-  //       gyroControls: false,
-  //       minHeight: 200.00,
-  //       minWidth: 200.00,
-  //       scale: 1.00,
-  //       scaleMobile: 1.00,
-  //       backgroundColor: 0xde8d60,
-  //       color1: 0xd9d6d6,
-  //       color2: 0x2bb873,
-  //       birdSize: 1.30,
-  //       wingSpan: 10.00,
-  //       separation: 81.00,
-  //       cohesion: 79.00
-  //     });
-  //   }
-  // }, []);
-
   return (
-<div className= "bg-custom-black h-screen rounded-lg">
-  <Nav/>
-<Nav2/>
-</div>
-  );
+    <div className="h-screen relative">
+      <Nav />
+      
+      {/* 3D Background */}
+
+
+      {/* Content Overlay */}
+      <div className="relative z-10 flex items-center justify-center h-full text-white">
+        <div className="text-center">
+          <h1 className="text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
+            Full Stack Developer & DevOps Engineer
+          </h1>
+          <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+            Building scalable applications and automating deployment pipelines
+          </p>
+        </div>
+      </div>
+    </div>
+  )
 }
 
 export default Body;
